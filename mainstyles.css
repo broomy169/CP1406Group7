@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: darkgray;
+}
+
+#anchor {
+    pointer-events: none;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#menu a:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

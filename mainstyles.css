@@ -86,3 +86,15 @@ form {
     margin-right:auto;
     text-align:left;
 }
+
+#sign { 
+    width: 294px;
+    margin-left:1055px;
+    position: fixed;
+    align-content: right;
+    background: lightgrey;
+}
+
+#sign p { 
+    text-align: center;
+}

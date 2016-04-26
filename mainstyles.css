@@ -127,7 +127,7 @@ form {
     text-align: center;
 }
 
-<<<<<<< HEAD
+
 #homeimage {
     width: 220px;
     position: static;
@@ -138,8 +138,8 @@ form {
     width: 500px;
     margin-left: 125px;
     
-=======
-#content_pic1 {
+}
+#contentpic {
     height: 100%;
     width: 100%;
     
@@ -148,12 +148,7 @@ form {
 #footer {
     text-align: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
-=======
->>>>>>> origin/master
+
 
 #comments {
     width: 100%;
@@ -164,14 +159,5 @@ form {
 #submit {
     width: 25%;
     margin: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
->>>>>>> origin/master
-=======
-}
->>>>>>> origin/master
-=======
     padding-top: 7px;
 }
->>>>>>> origin/master

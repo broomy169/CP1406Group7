@@ -32,7 +32,7 @@ li {
     list-style-type: none;
 }
 
-input[type=text], [type=number], [type=email] {
+input[type=text], [type=number], [type=email], [type=submit] {
     width: 100%;
     padding: 12px 20px;
     display: inline-block;

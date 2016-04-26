@@ -104,6 +104,17 @@ form {
     margin-left: 350px;
 }
 
-#sign h3{
+#sign h3 {
     text-align: center;
 }
+
+#homeimage {
+    width: 220px;
+    position: static;
+    margin-left: 50px
+}
+
+#content img { 
+    width: 500px;
+    margin-left: 125px;
+    

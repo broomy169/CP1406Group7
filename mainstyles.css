@@ -8,7 +8,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: darkgray;
+    background-color: dodgerblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu-v2 {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#menu-v2 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
 }
 
 #anchor {
@@ -18,13 +33,13 @@ body {
 #menu a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px;
 }
 
 #menu a:hover {
-    color: black;
-    background-color: lightgray;
+    color: white;
+    background-color: skyblue;
 }
 
 li {
@@ -56,6 +71,7 @@ h1, h2 {
     margin-left: auto;
     margin-right: auto;
     text-align:justify;
+    font-family: 'Poppins', sans-serif;
 }
 
 #about {
@@ -105,5 +121,15 @@ form {
 }
 
 #sign h3{
+    text-align: center;
+}
+
+#content_pic1 {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#footer {
     text-align: center;
 }

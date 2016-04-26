@@ -133,3 +133,14 @@ form {
 #footer {
     text-align: center;
 }
+
+#comments {
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+}
+
+#submit {
+    width: 25%;
+    margin: auto;
+}

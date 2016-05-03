@@ -25,6 +25,10 @@ body {
     color: black;
     padding: 10px;
 }
+#headerpic {
+    margin-top: 20px;
+    height: 75px;
+}
 
 #anchor {
     pointer-events: none;

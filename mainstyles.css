@@ -1,6 +1,7 @@
 body {
-    margin: 0px;
+    margin: -20px;
     padding: 0px;
+    background-color: lightgray;
 }
 
 #menu {
@@ -35,9 +36,6 @@ body {
 
 .menu:hover {
     background-color: skyblue;
-}
-#anchor {
-    pointer-events: none;
 }
 
 #menu a {

@@ -33,6 +33,9 @@ body {
     padding-right: 50px;
 }
 
+.menu:hover {
+    background-color: skyblue;
+}
 #anchor {
     pointer-events: none;
 }
@@ -44,10 +47,6 @@ body {
     padding: 10px;
 }
 
-#menu a:hover {
-    color: white;
-    background-color: skyblue;
-}
 
 li {
     display: inline-block;

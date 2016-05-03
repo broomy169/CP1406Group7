@@ -103,30 +103,10 @@ form {
     text-align:left;
 }
 
-#sign { 
-    width: 294px;
-    margin-left:1055px;
-    position: fixed;
-    align-content: right;
-    background: lightgrey;
-}
-#sign img {
-    width: 240px;
-    margin-left: 34px
-}
-#sign p { 
-    text-align: center;
-}
-
 #link {
     text-align: center;
     margin-left: 350px;
 }
-
-#sign h3 {
-    text-align: center;
-}
-
 
 #homeimage {
     width: 220px;

@@ -2,7 +2,7 @@ function form() {
     var name = document.forms["contactForm"]["name"].value;
     var phone = document.forms["contactForm"]["phone"].value;
     var email = document.forms["contactForm"]["email"].value;
-    var message = document.forms["contactForm"]["message"].value;
+    var address = document.forms["contactForm"]["address"].value;
 
     if (name === "") {
         alert("Please enter name.");
@@ -13,7 +13,7 @@ function form() {
     } else if (email === "") {
         alert("Please enter email address.");
         return false;
-    } else if (message === "") {
+    } else if (address === "") {
         alert("Please enter address.");
         return false;
     } else {

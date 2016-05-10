@@ -2,6 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="JavaScript/form.js"></script>
+<script type="text/javascript" src="JavaScript/googleDoc.js"></script>
+<title>Untitled Document</title>
 <title>Contact Us - Barrier Reef Orchestra</title>
 <link href="mainstyles.css" rel="stylesheet" type="text/css" />
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
@@ -23,36 +27,33 @@
     <div id="content">
     <h2>Contact the Barrier Reef Orchestra</h2>
     
-        <form>
-        <label for="fname">First Name: </label>
-        <input type="text" id="fname" name="fname">
-            
-        <label for="lname">Last Name: </label>
-        <input type="text" id="lname" name="lname">
-            
-        <label for="phone">Phone: </label>
-        <input type="text" id="phone" name="phone">
-            
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="email">
-            
-        <label for="address">Address: </label>
-        <input type="text" id="address" name="address">
-            
-        <label for="state">State: </label>
-            <select id="state" name="state">
-            <option value="qld">Queensland</option>
-            <option value="nsw">New South Wales</option>
-            <option value="vic">Victoria</option>
-            <option value="act">Aust. Capital Territory</option>
-            <option value="tas">Tasmania</option>
-            <option value="sa">South Australia</option>
-            <option value="wa">Western Australia</option>
-            <option value="nt">Northern Territory</option>
-            </select>
-        <br><label for="comments">Comments: </label> <br>
-        <textarea name="comments" id="comments"></textarea>
-            <p id="submit"><input type="submit" value="Submit"></p>
+        <form id="contactForm">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+
+            <label for="phone">Phone: </label>
+            <input type="number" id="phone" name="phone">
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email">
+
+            <label for="address">Address: </label>
+            <input type="text" id="address" name="address">
+
+            <label for="state">State: </label>
+                <select id="state" name="state">
+                <option value="QLD">Queensland</option>
+                <option value="NSW">New South Wales</option>
+                <option value="VIC">Victoria</option>
+                <option value="ACT">Aust. Capital Territory</option>
+                <option value="TAS">Tasmania</option>
+                <option value="SA">South Australia</option>
+                <option value="WA">Western Australia</option>
+                <option value="NT">Northern Territory</option>
+                </select>
+            <br><label for="message">Message: </label> <br>
+            <textarea name="message" id="message"></textarea>
+                <p id="submit"><input type="submit" value="Submit"></p>
         </form>
     </div>
     <div id="footer">

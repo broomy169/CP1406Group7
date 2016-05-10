@@ -45,7 +45,6 @@ body {
     padding: 10px;
 }
 
-
 li {
     display: inline-block;
     list-style-type: none;
@@ -60,11 +59,9 @@ input[type=text], [type=number], [type=email], [type=submit] {
     box-sizing: border-box;
 }
 
-
 h1, h2 {
     text-align: center;
 }
-
 
 #content {
     width: 750px;

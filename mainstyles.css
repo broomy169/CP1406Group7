@@ -123,6 +123,34 @@ form {
     text-align: center;
 }
 
+#footer div {
+    text-align: center;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+
+#qlinks li {
+    width: 200px;
+    text-align: center;
+    display: block;
+}
+
+#ulinks li {
+    width: 400px;
+    text-align: center;
+    display: block;
+}
+
+#clinks {
+    width: 300px;
+    text-align: center;
+    display: block;
+}
+
+#contact {
+    text-align: center;
+}
 
 #comments {
     width: 100%;
@@ -138,4 +166,7 @@ form {
 
 #supporters {
     text-align: center;
+}
+#split {
+    width: 50%;
 }

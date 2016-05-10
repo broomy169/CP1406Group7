@@ -74,6 +74,8 @@ h1, h2 {
     font-family: 'Poppins', sans-serif;
 }
 
+    
+}
 #about {
     width: 400px;
     margin-left: auto;
@@ -145,7 +147,7 @@ form {
 #clinks {
     width: 300px;
     text-align: center;
-    display: block;
+    display: block; 
 }
 
 #contact {
@@ -167,6 +169,12 @@ form {
 #supporters {
     text-align: center;
 }
-#split {
-    width: 50%;
+
+
+#news {
+    margin-left: 310px;
 }
+
+#noticeLink {
+    margin-left: 250px;
+    text-align: auto;

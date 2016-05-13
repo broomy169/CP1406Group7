@@ -176,3 +176,12 @@ form {
     margin-left: 250px;
     text-align: auto;
 }
+
+#events{
+    text-align: center;
+    font-family: inherit;
+}
+
+#eventshead{
+    color: darkslateblue;
+}

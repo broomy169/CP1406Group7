@@ -71,13 +71,24 @@ h1, h2 {
     font-family: 'Poppins', sans-serif;
 }
 
-    
-}
+#newsletter {
+    text-align: center;
+}    
+
 #about {
-    width: 400px;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+#people {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#people td {
+    padding: 5px;
 }
 
 #about td {

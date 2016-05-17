@@ -7,18 +7,32 @@
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
 </head>
     <div id="menu">
-        <ul>
-            <li><a href="index.html"><img id="headerpic" src="images/BRO%20Logo.png"></a></li>
-            <li><a class="menu" href="index.html">Home</a></li>
-            <li><a class="menu" href="About.html">About</a></li>
-            <li><a class="menu" href="Gallery.html">Gallery</a></li>
-            <li><a class="menu" href="News.html">News</a></li>
-            <li><a class="menu" href="Events.html">Events</a></li>
-            <li><a class="menu" href="People.html">People</a></li>
-            <li><a class="menu" href="Supporters.html">Supporters</a></li>
-            <li><a class="menu" href="Contact.html">Contact</a></li>
-            
-        </ul>
+        <div id="menuBig">
+            <ul>
+                <li><a href="index.html"><img id="headerpic" src="images/BRO%20Logo.png"></a></li>
+                <li><a class="menu" href="index.html">Home</a></li>
+                <li><a class="menu" href="About.html">About</a></li>
+                <li><a class="menu" href="Gallery.html">Gallery</a></li>
+                <li><a class="menu" href="News.html">News</a></li>
+                <li><a class="menu" href="Events.html">Events</a></li>
+                <li><a class="menu" href="People.html">People</a></li>
+                <li><a class="menu" href="Supporters.html">Supporters</a></li>
+                <li><a class="menu" href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="menuSmall">
+            <img id="headerpic" src="images/BRO%20Logo.png">
+            <select onchange="location = this.options[this.selectedIndex].value;">
+                <option value="index.html">Home</option>
+                <option value="About.html">About</option>
+                <option value="Gallery.html">Gallery</option>
+                <option value="News.html" selected>News</option>
+                <option value="Events.html">Events</option>
+                <option value="People.html">People</option>
+                <option value="Supporters.html">Supporters</option>
+                <option value="Contact.html">Contact</option>
+            </select>
+        </div>
     </div>
 
 

@@ -5,86 +5,101 @@
     <title>Home - Barrier Reef Orchestra</title>
     <link href="mainstyles.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
-     <div id="menu">
-        <ul>
-          <li><a href="index.html"><img id="headerpic" src="images/BRO%20Logo.png"></a></li>
-            <li><a class="menu" href="index.html">Home</a></li>
-            <li><a class="menu" href="About.html">About</a></li>
-            <li><a class="menu" href="Gallery.html">Gallery</a></li>
-            <li><a class="menu" href="News.html">News</a></li>
-            <li><a class="menu" href="Events.html">Events</a></li>
-            <li><a class="menu" href="People.html">People</a></li>
-            <li><a class="menu" href="Supporters.html">Supporters</a></li>
-            <li><a class="menu" href="Contact.html">Contact</a></li>
-            
-        </ul>
+    <div id="menu">
+        <div id="menuBig">
+            <ul>
+                <li><a href="index.html"><img id="headerpic" src="images/BRO%20Logo.png"></a></li>
+                <li><a class="menu" href="index.html">Home</a></li>
+                <li><a class="menu" href="About.html">About</a></li>
+                <li><a class="menu" href="Gallery.html">Gallery</a></li>
+                <li><a class="menu" href="News.html">News</a></li>
+                <li><a class="menu" href="Events.html">Events</a></li>
+                <li><a class="menu" href="People.html">People</a></li>
+                <li><a class="menu" href="Supporters.html">Supporters</a></li>
+                <li><a class="menu" href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="menuSmall">
+            <img id="headerpic" src="images/BRO%20Logo.png">
+            <select onchange="location = this.options[this.selectedIndex].value;">
+                <option value="index.html" selected>Home</option>
+                <option value="About.html">About</option>
+                <option value="Gallery.html">Gallery</option>
+                <option value="News.html">News</option>
+                <option value="Events.html">Events</option>
+                <option value="People.html">People</option>
+                <option value="Supporters.html">Supporters</option>
+                <option value="Contact.html">Contact</option>
+            </select>
+        </div>
     </div>
 </head>
 
 <body>
     
-<p><div id="content" >
-    
-    <div id="fb">
-    <div id="fb-feed"></div>        
-    <script>(function(d, s, id) {    
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
- 
-    
-        <div class="fb-page" data-href="https://www.facebook.com/nqorchestra/" data-tabs="timeline,events,messages" data-width="300" data-height="575" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">   
-        <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/nqorchestra/"><a href="https://www.facebook.com/nqorchestra/">Barrier Reef Orchestra</a></blockquote></div></div>
-</div>The Barrier Reef Orchestra was formed in Townsville in 2000 after a workshop conducted by Richard McIntyre from Canberra. Over the past 15 years it has gone from strength to strength and now presents three main concerts a year, as well as smaller concerts such as the children’s concert Peter and the Wolf in 2014. We are a community orchestra, drawing players from a large cross section of the Townsville community and sometimes beyond. All are drawn together by their great love of orchestral music and desire to provide North Queensland with quality performances. Depending on the program up to 50 musicians play a wide ranging repertoire which has included some of the great orchestral compositions such as the New World Symphony by Dvorak and most of the Beethoven symphonies as well as Tchaikovsky and Bizet. </p>
+    <p><div id="content" >
 
-<p>An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience was recently followed by Peter Sculthorpe’s Mangroves, a collaboration with audio-visual artists, ABC radio and Umbrella Studios. The programs are testament to the orchestra’s willingness to embrace mainstream classical repertoire as well as opportunities for collaboration. </p>
-<hr>
-    <p>
-    <img id="contentpic" src="images/orchestrawith%20raymond.jpg">
+        <div id="fb">
+        <div id="fb-feed"></div>        
+        <script>(function(d, s, id) {    
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+            
+            <div class="fb-page" data-href="https://www.facebook.com/nqorchestra/" data-tabs="timeline,events,messages" data-width="300" data-height="575" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">   
+            <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/nqorchestra/"><a href="https://www.facebook.com/nqorchestra/">Barrier Reef Orchestra</a></blockquote></div></div>
+            
+    
+    </div>The Barrier Reef Orchestra was formed in Townsville in 2000 after a workshop conducted by Richard McIntyre from Canberra. Over the past 15 years it has gone from strength to strength and now presents three main concerts a year, as well as smaller concerts such as the children’s concert Peter and the Wolf in 2014. We are a community orchestra, drawing players from a large cross section of the Townsville community and sometimes beyond. All are drawn together by their great love of orchestral music and desire to provide North Queensland with quality performances. Depending on the program up to 50 musicians play a wide ranging repertoire which has included some of the great orchestral compositions such as the New World Symphony by Dvorak and most of the Beethoven symphonies as well as Tchaikovsky and Bizet. </p>
+
+    <p>An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience was recently followed by Peter Sculthorpe’s Mangroves, a collaboration with audio-visual artists, ABC radio and Umbrella Studios. The programs are testament to the orchestra’s willingness to embrace mainstream classical repertoire as well as opportunities for collaboration. </p>
+    <hr>
+        <p>
+        <img id="contentpic" src="images/orchestrawith%20raymond.jpg">
+        </p>
+    <p>An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience, won the Townsville City Council Arts Award for best musical production in 2011. This was recently followed by performing Peter Sculthorphe’s Mangroves, a collaboration with audio-visual artists, performing on ABC radio and at Umbrella Studios. Another recent highlight was playing with James Morrison for the second time to present Latin Fiesta, which was originally done with the Western Australian Orchestra. </p>
+
+    <p>In 2015 the orchestra was invited to perform in three festivals, joining with the AFCM to present a free public concert in Queens Garden the 1812!; Dancenorth at Jezzine Barracks for Twilight and featured in World Music as part of the Townsville Civic Theatre music season. This was a first for the orchestra - underscoring its value to the community and highlighting its continued prominence in the cultural soundscape of North Queensland. </p>
+    <hr>
+
+        <p><img id="contentpic" src="images/ACFM%201RAR.jpg" ></p>
+
+    <p>Now to 2016 which is going to be a stellar year for your Orchestra. Already we have our three major concerts which will include opera, featuring Paul Tabone born in Ingham, but now working the international stage as a tenor based in Italy. Rachmaninov’s Piano Concerto No.2 featuring last year’s winner of the instrumental section of the ACVC, Arthur Athan. Our opening performance titled Dreams and Dances is sure to have some favourites such as Afternoon of a Fawn by Debussy. </p>
+
+    <p>We are also pleased to be part of the Townsville 150 Concert where we will share the stage with the likes of David Campbell, Luke Kennedy, Bronwyn Douglas and the 1 RAR Band just to name a few of the guests. We will be back to Queens Gardens for a repeat performance as part of AFCM due to the huge popularity of last year’s concert.
     </p>
-<p>An outstanding performance of Beethoven’s 9th Symphony presented to a sell-out audience, won the Townsville City Council Arts Award for best musical production in 2011. This was recently followed by performing Peter Sculthorphe’s Mangroves, a collaboration with audio-visual artists, performing on ABC radio and at Umbrella Studios. Another recent highlight was playing with James Morrison for the second time to present Latin Fiesta, which was originally done with the Western Australian Orchestra. </p>
 
-<p>In 2015 the orchestra was invited to perform in three festivals, joining with the AFCM to present a free public concert in Queens Garden the 1812!; Dancenorth at Jezzine Barracks for Twilight and featured in World Music as part of the Townsville Civic Theatre music season. This was a first for the orchestra - underscoring its value to the community and highlighting its continued prominence in the cultural soundscape of North Queensland. </p>
-<hr>
-
-    <p><img id="contentpic" src="images/ACFM%201RAR.jpg" ></p>
-
-<p>Now to 2016 which is going to be a stellar year for your Orchestra. Already we have our three major concerts which will include opera, featuring Paul Tabone born in Ingham, but now working the international stage as a tenor based in Italy. Rachmaninov’s Piano Concerto No.2 featuring last year’s winner of the instrumental section of the ACVC, Arthur Athan. Our opening performance titled Dreams and Dances is sure to have some favourites such as Afternoon of a Fawn by Debussy. </p>
-
-<p>We are also pleased to be part of the Townsville 150 Concert where we will share the stage with the likes of David Campbell, Luke Kennedy, Bronwyn Douglas and the 1 RAR Band just to name a few of the guests. We will be back to Queens Gardens for a repeat performance as part of AFCM due to the huge popularity of last year’s concert.
-</p>
-
-</div>
-    <div id="footer">
-            <hr id="split">
-            <div id="qlinks">
-                <ul>
-                    <li><p>Quick Links</p></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About Us</a></li>
-                    <li><a href="Gallery.html">Gallery</a></li>
-                    <li><a href="Contact.html">Contact Us</a></li>
-                </ul>
+        <div id="footer">
+                <hr id="split">
+                <div id="qlinks">
+                    <ul>
+                        <li><p>Quick Links</p></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="ulinks">
+                    <ul>
+                        <li><p>Useful Links</p></li>
+                        <li><a href="News.html">News</a></li>
+                        <li><a href="People.html">People</a></li>
+                        <li><a href="Supporters.html">Supporters</a></li>
+                        <li><a href="Events.html">Upcoming/Past Events</a></li>
+                    </ul>
+                </div>
+                <div id="clinks">
+                    <p>Contact</p>
+                    <p>Please visit the link below to Contact Us: <br />
+                    <a href="Contact.html">Contact Form</a></p>
             </div>
-            <div id="ulinks">
-                <ul>
-                    <li><p>Useful Links</p></li>
-                    <li><a href="News.html">News</a></li>
-                    <li><a href="People.html">People</a></li>
-                    <li><a href="Supporters.html">Supporters</a></li>
-                    <li><a href="Events.html">Upcoming/Past Events</a></li>
-                </ul>
-            </div>
-            <div id="clinks">
-                <p>Contact</p>
-                <p>Please visit the link below to Contact Us: <br />
-                <a href="Contact.html">Contact Form</a></p>
         </div>
-    </div>
-    <hr id="split">
-    <p id="footer">Barrier Reef Orchestra &#169; 2016</p>
+        <hr id="split">
+        <p id="footer">Barrier Reef Orchestra &#169; 2016</p>
 </body>
 </html>

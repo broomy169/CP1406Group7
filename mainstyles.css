@@ -13,19 +13,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#menu-v2 {
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+#menuBig {
+    display: block;
 }
 
-#menu-v2 a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 10px;
+#menuSmall {
+    display: none;
 }
+
 #headerpic {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -200,4 +195,54 @@ form {
 
 #eventshead{
     color: darkslateblue;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: auto;
+        margin: -20px;
+        padding: 15px;
+        background-color: lightgray;
+    }
+
+    #menu {
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: dodgerblue;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #menuBig {
+        display: none;
+    }
+
+    #menuSmall {
+        display: block;
+    }
+    
+    #content {
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+    }
+    #headerpic {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        vertical-align: middle;
+        height: 75px;
+        clear: left;
+    }
+    
+    #fb {
+        float: none;
+        margin: 0 auto;
+        position: relative;          
+        text-align: center;
+    }
+}
+    
 }

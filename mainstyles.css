@@ -167,6 +167,10 @@ form {
     text-align: center;
 }
 
+#split {
+    width: 50%;
+}
+
 
 #news {
     margin-left: 310px;

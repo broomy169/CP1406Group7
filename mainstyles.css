@@ -181,6 +181,11 @@ form {
     text-align: auto;
 }
 
+#fb {
+    float: left;
+    padding-right: 15px;
+}
+
 #events{
     text-align: center;
     font-family: inherit;

@@ -197,7 +197,7 @@ form {
     color: darkslateblue;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
         width: auto;
         margin: -20px;

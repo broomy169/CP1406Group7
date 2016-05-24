@@ -26,7 +26,7 @@ body {
     margin-bottom: 20px;
     vertical-align: middle;
     height: 75px;
-    padding-right: 50px;
+/*    padding-right: 50px;*/
 }
 
 .menu:hover {
@@ -204,7 +204,15 @@ form {
         padding: 15px;
         background-color: lightgray;
     }
+    
+    li {
+        display: block;
+        list-style-type: none;
+        text-align: left;
+        
+    }
 
+/*
     #menu {
         font-size: 20px;
         margin-left: auto;
@@ -213,13 +221,32 @@ form {
         background-color: dodgerblue;
         font-family: 'Poppins', sans-serif;
     }
+*/
     
     #menuBig {
         display: none;
     }
 
     #menuSmall {
+        display: inline-block;
+    }
+    
+    .dropdownMenu {
+        display: none;
+        position: absolute;
+        background-color: deepskyblue;
+        z-index: 1;
+        width: 200px;
+    }
+    
+    #menuSmall:hover .dropdownMenu {
         display: block;
+    }
+    
+    #menuSmall:hover .dropdownMenu ul {
+        left: auto;
+        right: 0;
+        margin-right: -10px;
     }
     
     #content {
@@ -242,6 +269,13 @@ form {
         margin: 0 auto;
         position: relative;          
         text-align: center;
+    }
+    
+    #headerpic {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        vertical-align: middle;
+        height: 75px;
     }
 }
     

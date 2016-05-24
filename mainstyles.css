@@ -132,18 +132,18 @@ form {
 }
 
 #qlinks li {
-    width: 200px;
+    width: 300px;
     text-align: center;
     display: block;
 }
 
 #ulinks li {
-    width: 400px;
+    width: 300px;
     text-align: center;
     display: block;
 }
 
-#clinks {
+#clinks p {
     width: 300px;
     text-align: center;
     display: block; 
@@ -236,7 +236,12 @@ form {
         position: absolute;
         background-color: deepskyblue;
         z-index: 1;
-        width: 200px;
+        width: 220px;
+    }
+    
+    .dropdownMenu a:hover {
+        width: 80%;
+        background-color: deepskyblue;
     }
     
     #menuSmall:hover .dropdownMenu {

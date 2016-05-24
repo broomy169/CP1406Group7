@@ -70,7 +70,7 @@ h1, h2 {
     text-align: center;
 }    
 
-#about {
+#people {
     margin-left: auto;
     margin-right: auto;
     
@@ -199,6 +199,10 @@ form {
 }
 
 #pevents {
+    text-align: center;
+}
+
+#history {
     text-align: center;
 }
 

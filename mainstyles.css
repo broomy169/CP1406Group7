@@ -17,6 +17,10 @@ body {
     display: block;
 }
 
+a:visited {
+    color: blue;
+}
+
 #menuSmall {
     display: none;
 }

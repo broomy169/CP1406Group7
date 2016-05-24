@@ -132,6 +132,16 @@ form {
     display: inline-block;
 }
 
+#qlinks ul {
+    margin: 0;
+    padding: 0;
+}
+
+#ulinks ul {
+    margin: 0;
+    padding: 0;
+}
+
 #qlinks li {
     width: 300px;
     text-align: center;
@@ -152,6 +162,8 @@ form {
 
 #contact {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #message {

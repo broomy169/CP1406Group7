@@ -186,14 +186,13 @@ form {
     width: 50%;
 }
 
+#noticeLink {
+    margin: auto;
+    text-align: center;
+}
 
 #news {
     margin-left: 310px;
-}
-
-#noticeLink {
-    margin-left: 250px;
-    text-align: auto;
 }
 
 #fb {
@@ -217,6 +216,7 @@ form {
 #history {
     text-align: center;
 }
+
 
 @media screen and (max-width: 768px) {
     body {
@@ -302,6 +302,18 @@ form {
         margin-bottom: 20px;
         vertical-align: middle;
         height: 75px;
+    }
+    #contactForm {
+        width: auto;
+    }
+    
+    #split {
+        width: auto;
+    }
+    
+    #noticeLink {
+        margin: auto;
+        text-align: center;
     }
 }
     

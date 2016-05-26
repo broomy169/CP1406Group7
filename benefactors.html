@@ -3,9 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, user-scalable=no" />
-<title>Supporters - Barrier Reef Orchestra</title>
+<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="JavaScript/form.js"></script>
+<script type="text/javascript" src="JavaScript/googleDoc.js"></script>
+<title>Benefactor - Barrier Reef Orchestra</title>
 <link href="mainstyles.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
     <div id="menu">
         <div id="menuBig">
             <ul>
@@ -38,46 +41,46 @@
             </div>
         </div>
     </div>
+
 </head>
+
 <body>
+    
     <div id="content">
-        <h2>North Queensland Ensembles Inc</h2>
-        <h2>BARRIER REEF ORCHESTRA</h2>
-        <h2>BENEFACTORS' ROLL</h2>
-        
-        <div id="supporters">
-            Dr Kevin Artlett <br>
-            Carol Dall'Osto <br>
-            Councillor Ray Gartrell <br>
-            Bruce Gibson and Dorothy Gibson-Wilde O.A.M. <br> 
-            Dr Kerry Gillespie <br>
-            Peter Honeycombe <br>
-            Judy Hunter O.A.M. <br>
-            Ewen Jones MP <br>
-            David and Janine Kippin <br>
-            Simon and Lorraine McConnell <br>
-            Senator Ian McDonald <br>
-            Janice Mays <br>
-            Terry O'Toole <br>
-            Bronia and Neil Renison <br>
-            Desley Wheeler <br>
-            Graham Wheeler <br>
-            <p>As of 23rd March 2016</p>
-        </div>
-        
-        <h2>Sign up as a benefactor </h2><a href="benefactors.html"><h3>Click here</h3></a>.
-        
-        <h2>Proudly Sponsored by</h2>
-        
+    <h2>Become a Benefactor of the Barrier Reef Orchestra</h2>
+    
+        <form id="benefactorForm" onsubmit="return form();">
+            <p>I wish to contribute: $<input type="number" style="width: 12.5%"></p>
             
-        <a href="http://www.townsville.qld.gov.au" target="_blank"><img src="images/townsville-council-logo.jpg"></a>
-        <img src="images/asap-logo.png">
-        <a href="http://www.afcm.com.au" target="_blank"><img src="images/AFCMlogo-25th.gif"></a>
-        <a href="http://www.acvc.com.au" target="_blank"><img src="images/ACVClogo.jpeg"></a>
-        <a href="http://www.signsofexcellence.com.au" target="_blank"><img src="images/SOE%20logo.jpeg"></a>
-        <a href="http://www.sturtbc.com.au" target="_blank"><img src="images/sturt-business-centre-logo.png"></a>
-        <img src="images/GG%20logo%20for%20email.jpg">
+            <p>Pay by Cheque:<input type="radio" name="payMethod" value="eftpos"> by Eftpos:<input type="radio" name="payMethod" value="eftpos"> by Cash:<input type="radio" name="payMethod" value="cash"></p>
             
+            <label for="name">Please place me/us on the benefactor roll as:</label>
+            <input type="text" id="name" name="name" maxlength="25">
+            
+            <p>OR remain anonymous<input type="checkbox"></p>
+            
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" maxlength="15">
+
+            <label for="address">Address: </label>
+            <input type="text" id="address" name="address" maxlength="40">
+            
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" maxlength="20">
+            
+            <label for="phone">Phone: </label>
+            <input type="text" id="phone" name="phone" maxlength="10">
+            
+            <label for="phone">Mobile: </label>
+            <input type="text" id="phone" name="phone" maxlength="10">
+            
+            <p id="submit"><input type="submit" id="button" value="Submit"></p>
+            <script>
+                document.getElementById('button').onclick = function() {
+                    alert("Form sent. Thank you!");
+                };
+            </script>
+        </form>
     </div>
     <div id="footer">
             <hr id="split">

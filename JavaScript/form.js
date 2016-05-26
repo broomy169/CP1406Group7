@@ -17,6 +17,7 @@ function form() {
         alert("Please enter address.");
         return false;
     } else {
-        return true;
+        alert("Form sent. Thank you!");
+        return true; 
     }
 }

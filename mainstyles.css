@@ -58,7 +58,7 @@ input[type=text], [type=number], [type=email], [type=submit] {
     box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h2,h3 {
     text-align: center;
 }
 
@@ -283,6 +283,8 @@ form {
         width: auto;
         padding-left: 15px;
         padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: justify;
         font-family: 'Poppins', sans-serif;
     }
@@ -307,7 +309,7 @@ form {
         vertical-align: middle;
         height: 75px;
     }
-    #contactForm {
+    #contactForm, #benefactorForm {
         width: auto;
     }
     

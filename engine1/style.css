@@ -24,7 +24,7 @@
 	max-width: 640px;
 	max-height:360px;
 	margin:0px auto 0px;
-	z-index:-1;
+	z-index:90;
 	text-align:left; /* reset align=center */
 	font-size: 10px;
 	text-shadow: none; /* fix some user styles */
@@ -110,7 +110,7 @@
 #wowslider-container1  .ws_bullets { 
 	float: left;
 	position:absolute;
-	z-index:70;
+	z-index:-2;
 }
 #wowslider-container1  .ws_bullets div{
 	position:relative;

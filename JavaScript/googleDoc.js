@@ -41,6 +41,7 @@ jQuery( document ).ready(function( $ ) {
                 $inputs.prop("disabled", false);
             });
             event.preventDefault();
+            alert("Contact form sent!");
         } else {
             return false;
         }
